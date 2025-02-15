@@ -13,10 +13,10 @@
 <br/>
 <br/>
 <div class="container">
-    <img src="img/igli.png" width="800px" alt=""/>
+    <img src="img/igli.png" width="800" alt="" id="igli"/>
     <br/>
     <br/>
-    <p style="color: white; max-width: 850px; font-family: 'Arial'; font-size: 48px">
+    <p style="color: white; max-width: 850px; font-family: 'Arial'; font-size: 48px" id="text">
         At Igli, we believe in the power of transformation.
         By taking materials that others throw away, we create high-fashion pieces that are as sustainable as they are stylish.
         Every item tells a story of creativity, innovation, and a commitment to a better future.
@@ -27,5 +27,21 @@
     </p>
 
 </div>
+<script>
+    function isMobileDevice() {
+        return /Mobi|Android/i.test(navigator.userAgent);
+    }
+
+    function updateSize() {
+        if (!isMobileDevice()) {
+            const igli = document.getElementById('igli');
+            const text = document.getElementById('text');
+            igli.width = "600";
+            text.style.maxWidth = "1600px";
+        }
+    }
+
+    updateSize();
+</script>
 </body>
 </html>
