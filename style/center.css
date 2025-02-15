@@ -1,0 +1,13 @@
+body {
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 600px;
+}
