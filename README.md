@@ -1,6 +1,6 @@
 Igli’s website expertly captures the unique dynamism of the fashion industry, translating its bold vision of sustainability and style into a seamless digital experience. 
 Balancing aesthetic views with intuitive functionality, successfully crafting a platform that not only showcases high-fashion innovation but also tells a compelling story of transformation and creativity. 
-[igli.info](https://services.outsideworx.net:9004)
+[igli.info](https://sites.outsideworx.net:9004)
 
 ---
 
